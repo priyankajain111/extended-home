@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sheet.css">
+    <link rel="stylesheet" href="sheet2.css">
+    <link rel="stylesheet" href="javas.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Booking</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+   <!-- top header -->
+   <div class="fixed-top">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <div class="fixed-top"> -->
+    <a class="navbar-brand" href="#">Extended home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item active">
+            <img class="em-img" src="email.png" alt="">
+          <a class="nav-link1" href="#">EMAIL US</a>
+          <p class="email-link">abc@gmail.com</p>
+        </li>
+        <li class="nav-item">
+            <img class="can-img" src="call.png" alt="">
+          <a class="nav-link2" href="#">CONTACT US</a>
+          <p class="contact-link">Call:+1234567890</p>
+        </li>
+        <li class="nav-item">
+            <img class="car-img" src="career.png" alt="">
+          <a class="nav-link3" href="#">CAREERS</a>
+          <p class="career-link">Work with Us</p>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!-- </div> -->
+
+
+
+
+   <!-- header -->
+   <nav class="nav">
+    <div class="container-fluid">
+        <div class="logo">
+            <a href="#">Your Logo</a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Accomodation</a></li>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+</nav>
+</div>
+<!-- form -->
+
+<section class="my-5 book-form">
+    <div class="book-text">
+        <h1 class="book-text1 "> Contact Us</h1>
+        <p class="text-center">Call Us On 1800-1111-2222 or Email booking@website.com</p>
+    </div>
+</section>
+
+<section class="my-5 abt" id="about-us">
+    <div class="container">
+    <div class="py-5">
+        <h2 class="text-left " style="font-family:karma;font-size: 3rem;">Get In Touch</h2>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <!-- <form>
+                    <div class="row">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                      </div>
+                    </div>
+                  </form> -->
+                  <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+ 
+  <button type="submit" class="btn btn-success btn-lg">Sign in</button>
+</form>
+            </div>
+          <div class="col-lg-6 col-md-6 col-12">
+              <h2 class="display-4">Extended Home</h2>
+              <p class="py-3" style="color: black; font-size: 1.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Facilis, numquam? Lorem ipsum dolor, sit amet  consectetur adipisicing elit. 
+                  Error odio similique quibusdam aliquid dolores nulla eaque doloribus, sequi Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat esse sequi delectus quisquam laudanti <br> um deleniti alias ipsa enim dolore laboriosam.
+                  neque quasi?</p>
+                  <button class="abt-btn">LEARN MORE </button>
+          </div>
+      </div>
+      </div>
+    </div>
+</section>
+
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

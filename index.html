@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="sheet.css">
     <link rel="stylesheet" href="sheet2.css">
     <link rel="stylesheet" href="javas.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <title>Hello, world!</title>
   </head>
   <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
-   <!-- top header --><div class="fixed-top">
+   
+   <!-- top header -->
+   <div class="fixed-top">
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- <div class="fixed-top"> -->
     <a class="navbar-brand" href="#">Extended home</a>
@@ -24,7 +24,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ">
         <li class="nav-item active">
             <img class="em-img" src="email.png" alt="">
           <a class="nav-link1" href="#">EMAIL US</a>
@@ -50,16 +50,16 @@
 
    <!-- header -->
    <nav class="nav">
-    <div class="container">
+    <div class="container-fluid">
         <div class="logo">
             <a href="#">Your Logo</a>
         </div>
         <div id="mainListDiv" class="main_list">
             <ul class="navlinks">
                 <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about-us">About</a></li>
                 <li><a href="#">Accomodation</a></li>
-                <li><a href="#">Booking</a></li>
+                <li><a href="#booking">Booking</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
@@ -81,8 +81,8 @@
     <div class="carousel-item active">
       <img src="room3.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h5 style="color: black;">First slide label</h5>
+        <p style="color: black;">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </div>
     </div>
     <div class="carousel-item">
@@ -114,136 +114,202 @@
 
             
 
-      <h1 class="room-class">OUR ROOMS</h1>
-
-
-
-<!-- rooms pictures -->
-<div class="row row-cols-1 row-cols-md-3">
-    <div class="col mb-4">
-      <div class="card" id="card1">
-        <img src="room.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">INR-3000</p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card" id="card2">
-        <img src="room2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">INR 4000</p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card" id="card3">
-        <img src="room.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">INR 5000</p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card" id="card4">
-        <img src="room2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">INR 8000</p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card" id="card5">
-          <img src="room2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">INR 8000</p>
-          </div>
-        </div>
-      </div>
-    <div class="col mb-4">
-        <div class="card" id="card6">
-          <img src="room2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">INR 8000</p>
-          </div>
-        </div>
-      </div>
-  </div>
-  <p id="about"></p><p><p></p></p>
+  
 
 
   <!-- about -->
   
 
-<section class="my-5" id="about-us">
+<section class="my-5 about" id="about-us">
   <div class="py-5">
       <h2 class="text-center">About Us</h2>
     </div>
     <div class="container-fluid">
       <div class="row">
-          <div class="col-lg-6 col-md-6 col-12">
+          <div class="col-lg-6 col-md-6 col-12 about--part1 ">
               <img src="room.png" class="img-fluid about-img" alt="">
           </div>
-        <div class="col-lg-6 col-md-6 col-12">
+        <div class="col-lg-6 col-md-6 col-12 about--part2">
             <h2>Extended Home</h2>
             <p style="color: black; font-size: 1.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Facilis, numquam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                 Error odio similique quibusdam aliquid dolores nulla eaque doloribus, sequi Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat esse sequi delectus quisquam laudanti <br> um deleniti alias ipsa enim dolore laboriosam.
                 neque quasi?</p>
-                <button class="about-btn">LEARN MORE </button>
+                <a href="about.html"><button class="about-btn">LEARN MORE </button></a>
            
         </div>
     </div>
     </div>
   
 </section>
-<p style="height: 5vh;"></p>
+
+<!-- our rooms -->
+<section class="my-5" id="our-room">
+  <div class="py-5">
+      <h2 class="text-center" style="color: blanchedalmond;">Our Rooms</h2>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="room.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="room.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="room.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="room3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="room3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="room3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="room.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="room.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="room2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+</section>
+
+<section class="my-5 book-form" id="booking">
+  <div class="py-5">
+    <h2 class="text-center book-pg">Booking</h2>
+  </div>
+  <div class="book-text  ">
+      <h1 class="book-text1 ">Book online today and look forward to a <br> relaxing stay with us</h1>
+      <p class="text-center">Call Us On 1800-1111-2222 or Email booking@website.com</p>
+     <a href="book.html"> <button class="about-btn btn-pos" >BOOKING </button></a>
+  </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!-- form -->
-<section class="my-5 form-contact " >
-    <div class="py-5">
-        <h2 class="text-center">Details</h2>
-      </div>
-   
-      <div class="container-fluid">
-        <div class="row">
-          <form>
-            <div class="col-lg-6 col-md-6 col-12">
-      <label>
-        CHECK IN
-      <input type="text" placeholder="23:01AM">
-      </label>
-      </div>
-      <div class="col-lg-6 col-md-6 col-12">
-      <label >
-        CHECK OUT
-      <input type="text" placeholder="21:02PM">
-      </label>
-    </div>
-    <div class="col-lg-6 col-md-6 col-12 py-3">
-    
-      <label>
-        ROOMS
-      <input type="text" placeholder="4">
-      </label>
-    
-      <label style="margin-left:90px;">
-        ACCOMODATION
-      <input type="text" placeholder="2BHK">
-      </label>
-    </div>
-     
-  </form>
-  </div>
-  </div>
-</section>
+
 
 <!-- Accomodation -->
 
@@ -271,7 +337,7 @@
     });
 </script>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
 <script>
 
 // var waypoint = new Waypoint({
@@ -284,17 +350,12 @@
 
 
 $(document).ready(function(){
-	$('#card1').waypoint(function(direction){
-	$('#card1').addClass('animated fadeInUp')
+	$('.about--part1').waypoint(function(direction){
+	$('.about--part1').addClass('animated fadeInUp')
 },{
-offset: '50%'
+offset: '400px'
+})
 });
-});
-
-
-
-
-
 </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
