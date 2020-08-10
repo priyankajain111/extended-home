@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
     font-size: 62.5%;
-    font-size: 10px;
+    /* font-size: 10px; */
     scroll-behavior: smooth;
 }
 /*-- Inspiration taken from abdo steif -->
@@ -64,7 +64,7 @@ body {
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #efefef;
     line-height: 45px;
     font-size: 1.8rem;
  background-position: center;
@@ -86,7 +86,7 @@ body {
 } */
 .carousel-item
 {
-    height: 80vh;
+    height: 90vh;
 }
 .navTrigger {
     display: none;
@@ -347,7 +347,7 @@ body {
 
 .affix {
     padding: 0;
-    background-color: rgb(100, 20, 20);
+    background-color:rgba(0, 0, 0, 0.589);
 }
 
 

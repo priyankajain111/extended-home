@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+.nav-link {
+    font-size: 1.5rem;
+}
+.carousel-item
+{
+    height: 80vh;
+}
+.ab-img
+{
+    width: 100%;
+    height: 250px!important;
+}
+.abt-btn{
+    position: absolute;
+    left: 12.6%;
+    right: 61.6%;
+    height:50px;
+    width: 150px;
+    cursor: pointer;
+      display: inline-block;
+      font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 35px;
+    
+    
+    background: #DEA563;
+    border: 1px solid #CEB250;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    /* filter: blur(0.5px); */
+    }
+
+#our-room
+{
+    background-color: black;
+}
+.book-form
+{
+    
+    height: 40vh;
+}
+.book-text1
+{
+    padding-top: 60px;
+    font-family: karma!important;
+    font-size: 4rem;
+    color: blanchedalmond;
+ text-align: center;
+ justify-content: center;
+   
+ 
+}
+.btn-pos{
+    justify-content: center;
+    text-align: center;
+    margin-left: 30%;
+
+}
+.book-text
+{
+    height: 40vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(room3.png);
+    
+
+}

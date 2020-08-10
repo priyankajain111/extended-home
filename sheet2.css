@@ -1,145 +1,4 @@
-.navbar
-{
-    height: 42px;
-    
 
-}
-.nav-link1
-{
-    position: absolute;
-left: 35.97%;
-right: 56.39%;
-top: 13.74%;
-
-
-font-family: sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 1.2rem;
-/* line-height: 26px; */
-
-color: #6B0707;
-}
-
-.email-link{
-    /* abc@gmail.com */
-
-
-position: absolute;
-left: 35.35%;
-right: 49.86%;
-top: 52.78%;
-
-
-font-family: sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 1rem;
-/* line-height: 26px; */
-
-color: #B0A2A2;
-
-}
-.nav-link2
-{
-    position: absolute;
-left: 58.12%;
-right: 29.38%;
-top: 13.74%;
-
-
-font-family: sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 1.2rem;
-
-
-color: #6B0707;
-
-}
-.contact-link{
-    /* Call:+1234567890 */
-
-
-position: absolute;
-left: 58.12%;
-right: 29.44%;
-top: 52.78%;
-
-
-font-family: sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 1rem;
-
-
-color: #B0A2A2;
-
-}
-.nav-link3
-{
-/* CAREERS */
-
-
-position: absolute;
-left: 81.46%;
-right: 12.01%;
-top: 20.37%;
-
-font-family: sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 1.2rem;
-
-
-color: #6B0707;
-}
-.career-link
-{
-/* Work with Us */
-
-
-position: absolute;
-left: 80.62%;
-right: 10.42%;
-top: 52.78%;
-
-font-family: sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 1rem;
-
-color: #B0A2A2;
-
-}
-.em-img{
-position: absolute;
-left: 29.58%;
-right: 65.83%;
-top: 15.74%;
-width: 3%;
-height: 55%;
-}
-.can-img
-{
-    position: absolute;
-left: 52.36%;
-right: 43.68%;
-top: 18.07%;
-bottom: 18.52%;
- width: 3%;
-height: 60%; 
-}
-.car-img
-{
-    position: absolute;
-left: 74.51%;
-right: 18.75%;
-top: 5.56%;
-bottom: 0%;
-width: 6%;
-height: 80%;
-}
 
 .about-us
 {
@@ -274,13 +133,13 @@ input[type=text]
 
 #our-room
 {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.863);
 }
-.book-form
+/* .book-form
 {
     
     height: 40vh;
-}
+} */
 .book-text1
 {
     padding-top: 60px;
@@ -303,9 +162,175 @@ input[type=text]
     height: 40vh;
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(room3.png);
 }
-/* .about--part1{
+.about--part1,.about--part2{
     opacity: 0;
 }
-.about--part1 .animated{
+.about--part1 .animated,.about--part2 .animated{
     opacity: 1;
-} */
+}
+.footer p
+{
+    color: #999;
+    line-height: 25px;
+    font-size: 1.4rem;
+}
+.footer h2,h3{
+    color: #FFF;
+}
+.footer h2{
+    font-size: 18px;
+}
+.footer-top
+{
+    background:#111;
+    padding: 80px 0;
+}
+.segment-one h3{
+    
+    color: #FFFFFF;
+    /* letter-spacing: 3px; */
+    margin: 10px 0;
+}
+.segment-two h2, .segment-three h2,.segment-four h2
+{
+    /* font-family: poppins; */
+    text-transform: uppercase;
+
+}
+
+.segment-two h2:before,.segment-three h2:before,.segment-four h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-two ul{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+}
+.segment-two ul li a{
+    color: #999;
+    text-decoration: none;
+    font-size: 15px;
+}
+.segment-three a{
+   background: #494848;
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   border-radius: 50%;
+}
+.segment-three a i{
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px 12px;
+}
+.segment-four form input[type=submit]
+{
+    background: #c65039;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.footer-bottom-text 
+{
+    background-color: #000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+}
+.testimonials
+{
+    margin: 50px auto;
+}
+.testimonials h1,.book-pg h1,.abt h1
+{
+    text-align: center;
+    font-weight: bold;
+    color: #c65039;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.testimonials h1::after,.book-pg h1::after,.abt h1::after
+{
+    content: '';
+    background: #c65039;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.testimonials .row
+{
+    margin-top: 30px;
+}
+.col-md-4
+{
+    margin: 40px auto;
+}
+.profile
+{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+.profile img{
+    top: 360vh;
+    position: absolute;
+ /* left: 80%; */
+    border: 10px solid white;
+}
+.user
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* left: 50%; */
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #c65039;
+}
+span{
+    font-size: 12px;
+    color: #333;
+}
+blockquote
+{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before{
+    content: '\93';
+    font-size: 50px;
+    position: relative;
+    color: #c65039;
+    line-height: 20px;
+    bottom: -5px;
+    right: 5px;
+}
+blockquote::after{
+    content: '\94';
+    font-size: 50px;
+    position: relative;
+    color: #c65039;
+    line-height: 10px;
+    bottom: -5px;
+    left: 5px;
+}
+.profile:hover
+{
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card-text
+{
+    color: black;
+}
